@@ -1,13 +1,30 @@
 * {
-  margin: 0 !important;
+  margin: 0 auto !important;
   padding: 0 !important;
-  outline: 0 !important;
-  box-sizing: border-box !important;
+  /*outline: 0 !important;
+  box-sizing: border-box !important; */
 }
 body {
   -webkit-font-smoothing: antialiased !important;
   scroll-behavior: smooth;
 }
-body, input, button {
-  font: 14px 'Roboto', sans-serif;
+body,
+input,
+button {
+  font: 14px "Roboto", sans-serif;
+}
+
+@media only screen and (min-width: 992px) {
+  .nineCol {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 11.111111%;
+    flex: 0 0 11.111111%;
+    max-width: 11.111111%;
+
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
 }
