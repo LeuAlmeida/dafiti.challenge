@@ -1,5 +1,5 @@
 Especificações para criação do teste
-O teste é para ser simples, apenas pra verificarmos sua metodologia de c�digo.
+O teste é para ser simples, apenas pra verificarmos sua metodologia de código.
 
 1 - Responsivo
 2 - Crossbrowser
