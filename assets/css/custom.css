@@ -3,8 +3,8 @@
 * {
   margin: 0 auto !important;
   padding: 0 !important;
-  /*outline: 0 !important;
-  box-sizing: border-box !important; */
+  outline: 0 !important;
+  box-sizing: border-box !important;
 }
 body {
   -webkit-font-smoothing: antialiased !important;
@@ -45,12 +45,19 @@ body {
   opacity: 0.4;
 }
 
+.first {
+  margin-left: 0px !important;
+  padding-left: 0px !important;
+}
+
 @media only screen and (min-width: 992px) {
   .nineCol {
     display: flex;
+    padding: 0px !important;
+    margin: 0px !important;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 11.111111%;
-    flex: 0 0 11.111111%;
+    /* flex: 0 0 11.111111%; */
     max-width: 11.111111%;
 
     position: relative;
