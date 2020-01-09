@@ -14,8 +14,17 @@ button {
   font: 14px "Roboto", sans-serif;
 }
 
+.first-column {
+  padding-right: 1rem !important;
+}
+
+.second-column {
+  padding-left: 1rem !important;
+}
+
 @media only screen and (min-width: 992px) {
   .nineCol {
+    display: flex;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 11.111111%;
     flex: 0 0 11.111111%;
@@ -26,5 +35,16 @@ button {
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .first-column {
+    padding-right: 0rem !important;
+  }
+
+  .second-column {
+    padding-left: 0rem !important;
+    margin-top: 1.5rem!important;
   }
 }
